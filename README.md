@@ -16,7 +16,7 @@
    curl -X POST \
         -H "Content-Type: application/json" \
         -d '{"callbackUrl": "https://<your‑endpoint>/webhook"}' \
-        https://apply.smith.vision/init
+        https://apply-intern-api.smith.vision/init
    ```
 3. **Answer the challenge** our server sends to *your* endpoint within **5 minutes** using HMAC‑SHA256.
 4. **Store the `registrationKey` we return** — include it as `X-Registration-Key` in every request from **Stage 2 onward**.
