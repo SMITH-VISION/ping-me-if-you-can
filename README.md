@@ -107,7 +107,7 @@ More free options are listed in [docs/hosting.md](docs/hosting.md).
 
 ### 2 — Verify HMAC signature
 
-Below is a **minimal Python 3.10** FastAPI snippet that fulfils Stage 0‑1. It follows the user’s preferred typing style (`str | None`) and inline comments explain the logic.
+Below is a **minimal Python 3.10** FastAPI snippet that fulfils Stage 0‑1.
 
 ```python
 from __future__ import annotations
